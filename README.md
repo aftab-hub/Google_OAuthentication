@@ -81,12 +81,6 @@ cd Frontend
 npm start
 ```
 
-### 5. Open the application
 
-Visit:
-
-```
-
-```
 
 
