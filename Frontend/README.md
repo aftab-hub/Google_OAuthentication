@@ -1,16 +1,92 @@
-# React + Vite
+# Google OAuth Authentication
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple MERN stack application that demonstrates secure user authentication using Google OAuth. Users can sign in with their Google account, and their profile information is retrieved and stored for authentication purposes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Sign in with Google
+* Secure Google OAuth 2.0 authentication
+* User profile retrieval
+* MongoDB integration
+* React frontend
+* Express.js backend
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+* Google OAuth
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+
+### 2. Install backend dependencies
+
+```bash
+cd Backend
+npm install
+```
+
+### . Configure environment variables
+
+Create a `.env` file inside the `Backend` folder and add the following variables:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+GOOGLE_CLIENT_ID=your_google_client_id
+```
+
+### 4. Start the backend server
+
+```bash
+cd Backend
+npm start
+```
+
+### 3. Install frontend dependencies
+
+```bash
+cd ../Frontend
+npm install
+```
+
+### . Configure environment variables
+
+Create a `.env` file inside the `Backend` folder and add the following variables:
+
+```env
+VITE_GOOGLE_CLIENT_ID="your_google_client_id"
+VITE_API_URL="http://localhost:5000"
+```
+
+
+### 4. Start the frontend
+
+Open a new terminal and run:
+
+```bash
+cd Frontend
+npm start
+```
+
+### 5. Open the application
+
+Visit:
+
+```
+
+```
+
+
