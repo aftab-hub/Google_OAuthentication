@@ -64,7 +64,7 @@ npm install
 
 ### . Configure environment variables
 
-Create a `.env` file inside the `Backend` folder and add the following variables:
+Create a `.env` file inside the `Frontend` folder and add the following variables:
 
 ```env
 VITE_GOOGLE_CLIENT_ID="your_google_client_id"
