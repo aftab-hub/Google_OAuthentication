@@ -27,7 +27,7 @@ A simple MERN stack application that demonstrates secure user authentication usi
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/aftab-hub/Google_OAuthentication.git
 ```
 
 
